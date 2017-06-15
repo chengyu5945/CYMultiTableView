@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "chengyu5945" => "chengyu_5945@163.com" }
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
 
   #s.source       = { :git => "https://github.com/chengyu5945/CYMultiTableView.git" }
 
