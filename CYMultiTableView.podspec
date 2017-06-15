@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "CYMultiTable"
+  s.name         = "CYMultiTableView"
   s.version      = "0.0.1"
-  s.summary      = "CYMultiTable"
+  s.summary      = "CYMultiTableView"
 
   s.description  = <<-DESC
                     This is a CYMultiTablView used on iOS, which implement by Objective-C.
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
   #s.source       = { :git => "https://github.com/chengyu5945/CYMultiTableView", :tag => s.version }
 
 
-  s.source_files  = "Classes", "CYMultiTable/*.{h,m}"
+  s.source_files  = "Classes", "CYMultiTableView/*.{h,m}"
 
   s.frameworks = 'UIKit'
-  s.module_name = 'CYMultiTable'
+  s.module_name = 'CYMultiTableView'
 
 end
