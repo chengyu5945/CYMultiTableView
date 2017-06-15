@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "https://github.com/marklin2012/O2View.git" }
+  #s.source       = { :git => "https://github.com/chengyu5945/CYMultiTableView.git" }
 
-  #s.source       = { :git => "https://github.com/chengyu5945/CYMultiTableView", :tag => s.version }
+  s.source       = { :git => "https://github.com/chengyu5945/CYMultiTableView.git", :tag => s.version }
 
 
   s.source_files  = "Classes", "CYMultiTableView/*.{h,m}"
